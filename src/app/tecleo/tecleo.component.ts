@@ -21,6 +21,7 @@ export class TecleoComponent implements OnInit {
   public empezar() {
     console.log('✨ click en empezar');
     this.mensaje = '🎏 ánimo';
+    this.haTerminado = false;
     this.loTecleado = '';
     this.inicio = Date.now();
     this.inputDeshabilitado = false;
