@@ -8,9 +8,9 @@ describe('TecleoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TecleoComponent ]
+      declarations: [TecleoComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
